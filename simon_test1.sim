@@ -1,0 +1,72 @@
+#include simon_test2.sim
+#include simon_test3.sim
+
+class My_Class {
+
+	/* 
+comments..., comments..., 
+comments..., many comments..., 
+*/
+
+	char char_a;
+	char abc = 'a';	
+	char char_A, char_B, char_C;
+	integer some_num;
+	integer a, b , c, d , e;	
+	Array_a = new integer[50]; 
+
+	My_Class () 
+	{
+/*  
+comments..., many comments... 
+*/
+		char_a = 'CHAR_A';
+		a = 0;
+		b = 0;
+		c = 0;
+		d = 0;
+		integer k = 0;
+		while ( k < 50 )
+			{
+				Array_a[k] = 0;
+				k = k + 1 ;
+				a = a + 2;
+				b = b + a;
+				c = b % b;
+				d = c / 5;
+			}
+	}
+	
+	void function_A (integer a, integer b)
+	{
+		k = ((a - b) * c)/e + a % f ;
+		integer A = check(k);
+		if ( !(A) )
+		{
+			a = b;
+			d = 0 ;
+		}
+		else
+		{
+			a = Array_a[k];
+			d = b + ((a - b) * c)/d + a % d ;
+		}
+		
+		while ( d < 100 )
+		{
+			d = d / 2 ;
+		}
+	}
+
+	integer function_B (integer k)
+	{
+		if ( k < 100 ) k = 0;
+		return k;
+	}
+
+
+	/* 
+end of class
+*/
+
+}

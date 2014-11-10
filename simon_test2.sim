@@ -1,0 +1,40 @@
+
+class My_Class_A {
+	/* 
+comments..., many comments..., 
+*/
+	char abc;	
+	integer some_num;
+	integer a, b , c, d , e;
+	char char_A, char_B, char_C;	
+	Array_a = new integer[50]; 
+
+	My_Class_A () 
+	{
+		;
+	}
+
+	integer fucntion_a ( char word ) {}
+
+	void some_fucntion_b ( char word )
+	{
+		function_a();
+	}
+
+}
+
+class My_Class_B {
+	/* 
+SOME DEFINITIONS
+*/
+	My_Class_B () 
+	{
+		;
+	}
+
+	void some_fucntion ( char word )
+	{
+		word = "hello" ;
+	}
+
+}
